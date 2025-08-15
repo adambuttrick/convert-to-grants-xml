@@ -1,0 +1,74 @@
+# Sample configuration of NSERC CSV data conversion to Crossref Grant XML
+
+# Static values for the XML header section
+header_static_values:
+  doi_batch_id: "nwo_batch_20250815"
+  depositor_name: "Depositor"
+  depositor_email: "depositor@depositoremail.com"
+  registrant: "Depositor Organization"
+
+# XML namespace declarations
+namespace_values:
+  xmlns: "http://www.crossref.org/grant_id/0.2.0"
+  "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+  "xmlns:rel": "http://www.crossref.org/relations.xsd"
+  "xsi:schemaLocation": "http://www.crossref.org/grant_id/0.2.0 http://www.crossref.org/schemas/grant_id0.2.0.xsd"
+
+# Field mappings from source data to XML elements
+field_mappings:
+  # DOI construction
+  doi:
+    transform: construct_doi
+    prefix: "10.13039/grant-"
+    source_field: "ApplicationID"
+  
+  # Resource URL construction
+  resource:
+    transform: construct_url
+    prefix: "https://www.nserc-crsng.gc.ca/grants/"
+    source_field: "ApplicationID"
+  
+  # Project title
+  project-title:
+    source_field: "ApplicationTitle"
+  
+  # Project description
+  description:
+    source_field: "ApplicationSummary"
+    default: "No summary available"
+  
+  # Investigator information with name splitting
+  investigators:
+    person_name:
+      transform: split_name
+      source_field: "Name-Nom"
+      separator: ","
+    affiliation:
+      source_field: "Institution-Établissement"
+      country_field: "CountryEN"
+  
+  # Award amount with currency
+  award_amount:
+    source_field: "AwardAmount"
+    currency: "CAD"
+  
+  # Using ROR ID for funder identification
+  funder_ror:
+    static_value: "https://ror.org/01h531d29"
+  
+  # Optional: Add funding scheme
+  funding_scheme:
+    source_field: "ProgramNaneEN"
+  
+  # Funding type
+  funding_type:
+    static_value: "grant"
+  
+  # Award number
+  award-number:
+    source_field: "ApplicationID"
+  
+  # Award start date with formatting
+  award-start-date:
+    transform: format_date
+    source_field: "FiscalYear-Exercice financier"

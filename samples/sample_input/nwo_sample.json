@@ -1,0 +1,1872 @@
+{
+  "metadata": {
+    "download_date": "2025-08-08T22:58:51.021815",
+    "api_metadata": {
+      "api_type": "NWO Projects API",
+      "version": "1.0.1",
+      "release_date": "2024-05-02T00:00:00",
+      "funder": "501100003246",
+      "ror_id": "https://ror.org/04jsz6e67",
+      "date": "2025-08-09T00:00:00",
+      "count": 13901,
+      "per_page": 100,
+      "pages": 140,
+      "page": 1
+    }
+  },
+  "projects": [
+    {
+      "project_id": "438-13-214",
+      "title": "Integrated Synchromodal Transport System Analysis (ISOLA)",
+      "funding_scheme_id": 1264,
+      "funding_scheme": "Duurzame Logistiek 2013 MaGW",
+      "department": "Sociale en Geesteswetenschappen",
+      "sub_department": "Maatschappij- en Gedragswetenschappen",
+      "start_date": "2016-05-01T00:00:00",
+      "end_date": "2021-01-04T00:00:00",
+      "reporting_year": 2014,
+      "summary_nl": "The research aims to support the development of the multimodal transport system in the Netherlands, and by extension, in Europe, into a truly synchromodal transport system, in which infrastructure use, transport services and operations are perfectly aligned with market demand. This requires the integration of data on infrastructure, services and transportation, the development of new synchromodal control mechanisms, and the further analysis of demand characteristics of shippers. This project provides the academic underpinning of the ambition and innovation vision that is formulated for synchromodality in the Topsector Logistics. So far research has mainly addressed horizontal alignment between modes into a coherent network. The main research angle for this project is the vertical alignment, i.e. the shipper/client orientation and the relations with the underlying network management. In addition to the fact that these vertical relations constitute scientifically unexplored territory, we argue that they are of critical importance for the deployment of synchromodal transport services. In short, if service demand is difficult to predict and if capacity availability is uncertain, the synchromodal service market will not function. \nAcademic contributions include (1) improved freight modelling by improving the representation of shippers? supply chain considerations; (2) quantification of the impact of the level of information exchange and collaboration / competition among organizations on synchromodal planning and execution; (3) new real-time decision making approaches and pricing mechanisms for synchromodal solutions; and (4) the development of information concepts that enable ?data synchromodality?. \n",
+      "summary_en": "The research aims to support the development of the multimodal transport system in the Netherlands, and by extension, in Europe, into a truly synchromodal transport system, in which infrastructure use, transport services and operations are perfectly aligned with market demand. This requires the integration of data on infrastructure, services and transportation, the development of new synchromodal control mechanisms, and the further analysis of demand characteristics of shippers. This project provides the academic underpinning of the ambition and innovation vision that is formulated for synchromodality in the Topsector Logistics. So far research has mainly addressed horizontal alignment between modes into a coherent network. The main research angle for this project is the vertical alignment, i.e. the shipper/client orientation and the relations with the underlying network management. In addition to the fact that these vertical relations constitute scientifically unexplored territory, we argue that they are of critical importance for the deployment of synchromodal transport services. In short, if service demand is difficult to predict and if capacity availability is uncertain, the synchromodal service market will not function. \nAcademic contributions include (1) improved freight modelling by improving the representation of shippers? supply chain considerations; (2) quantification of the impact of the level of information exchange and collaboration / competition among organizations on synchromodal planning and execution; (3) new real-time decision making approaches and pricing mechanisms for synchromodal solutions; and (4) the development of information concepts that enable ?data synchromodality?. \n",
+      "project_members": [
+        {
+          "role": "Project leader",
+          "member_id": 253466,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Veenstra",
+          "degree_pre_nominal": "prof. dr.",
+          "initials": "A.W.",
+          "first_name": "Albert",
+          "organisation": "Technische Universiteit Eindhoven - Eindhoven University of Technology||Faculteit - Department of Industrial Engineering & Innovation Sciences||Operations, Planning, Accounting and Control (OPAC)",
+          "organisation_id": 73825,
+          "active": false
+        },
+        {
+          "role": "Researcher",
+          "member_id": 350289,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Khakdaman",
+          "degree_pre_nominal": "dr.",
+          "initials": "M.",
+          "first_name": "Massoud",
+          "organisation": "Technische Universiteit Delft||Faculteit Techniek, Bestuur en Management (TBM)",
+          "organisation_id": 60812,
+          "active": false
+        },
+        {
+          "role": "Researcher",
+          "member_id": 361472,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Gumuskaya",
+          "degree_post_nominal": "MSc",
+          "initials": "V.",
+          "first_name": "Volkan",
+          "organisation": "Technische Universiteit Eindhoven - Eindhoven University of Technology||Faculteit - Department of Industrial Engineering & Innovation Sciences",
+          "organisation_id": 56036,
+          "active": false
+        },
+        {
+          "role": "Co-applicant",
+          "member_id": 200848,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Tavasszy",
+          "degree_pre_nominal": "prof. dr. ir.",
+          "initials": "L.A.",
+          "first_name": "Lóri",
+          "organisation": "Technische Universiteit Delft||Faculteit Techniek, Bestuur en Management (TBM)||Transportbeleid en Logistieke Organisatie",
+          "organisation_id": 77292,
+          "active": true
+        },
+        {
+          "role": "Main Applicant",
+          "member_id": 253466,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Veenstra",
+          "degree_pre_nominal": "prof. dr.",
+          "initials": "A.W.",
+          "first_name": "Albert",
+          "organisation": "Dinalog",
+          "organisation_id": 889,
+          "active": true
+        },
+        {
+          "role": "Researcher",
+          "member_id": 324675,
+          "orcid": "https://orcid.org/-",
+          "last_name": "White",
+          "degree_post_nominal": "MSc",
+          "initials": "H.",
+          "first_name": "Hobbs",
+          "organisation": "Erasmus Universiteit Rotterdam||Rotterdam School of Management",
+          "organisation_id": 52985,
+          "active": false
+        },
+        {
+          "role": "Co-applicant",
+          "member_id": 280450,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Ham",
+          "initials": "P.V.M.",
+          "first_name": "Paul",
+          "organisation": "Europe Container Terminal (ECT)",
+          "organisation_id": 31365,
+          "active": true
+        },
+        {
+          "role": "Co-applicant",
+          "member_id": 182655,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Dekker",
+          "degree_pre_nominal": "prof. dr. ir.",
+          "initials": "R.",
+          "first_name": "Rommert",
+          "organisation": "Erasmus Universiteit Rotterdam||Erasmus School of Economics||Econometrie",
+          "organisation_id": 74731,
+          "active": true
+        },
+        {
+          "role": "Co-applicant",
+          "member_id": 258239,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Deelen",
+          "degree_pre_nominal": "ir.",
+          "initials": "C.",
+          "first_name": "Cees",
+          "organisation": "Havenbedrijf Rotterdam NV",
+          "organisation_id": 24846,
+          "active": true
+        },
+        {
+          "role": "Co-applicant",
+          "member_id": 257995,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Zuidwijk",
+          "degree_pre_nominal": "prof. dr.",
+          "initials": "R.A.",
+          "first_name": "Rob",
+          "organisation": "Erasmus Universiteit Rotterdam||Rotterdam School of Management",
+          "organisation_id": 52985,
+          "active": true
+        },
+        {
+          "role": "Researcher",
+          "member_id": 325544,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Mulder",
+          "degree_post_nominal": "MSc",
+          "initials": "J.",
+          "first_name": "Judith",
+          "organisation": "Erasmus Universiteit Rotterdam||Erasmus School of Economics",
+          "organisation_id": 68850,
+          "active": false
+        }
+      ],
+      "products": [
+        {
+          "title": "beoogd: proefschrift",
+          "type": "Proefschrift"
+        },
+        {
+          "title": "beoogd: proefschrift",
+          "type": "Proefschrift"
+        },
+        {
+          "title": "Real-time container transport planning with decision trees based on offline obtained optimal solutions",
+          "year": 2016,
+          "edition": "89",
+          "start": 1,
+          "end": 16,
+          "type": "Wetenschappelijk artikel",
+          "journal_title": "Decision Support Systems",
+          "authors": [
+            {
+              "last_name": "van Riessen",
+              "initials": "B",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Dekker",
+              "initials": "R",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Negenborn",
+              "initials": "R R",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Real-time container transport planning with decision trees based on offline obtained optimal solutions",
+          "year": 2016,
+          "edition": "89",
+          "start": 1,
+          "end": 16,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "https://doi.org/10.1016/j.dss.2016.06.004",
+          "journal_title": "Decision Support Systems",
+          "authors": [
+            {
+              "last_name": "Riessen van",
+              "initials": "Bart",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Dekker",
+              "initials": "Rommert",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Negenborn",
+              "initials": "Rudy R.",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "A Reference Model for Hinterland Transport",
+          "year": 2020,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "http://dx.doi.org/10.2139/ssrn.3533979",
+          "journal_title": "SSRN",
+          "authors": [
+            {
+              "last_name": "Veenstra",
+              "initials": "Albert",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Jaarsveld van",
+              "initials": "Willem L.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Grefen van",
+              "initials": "Paul W.P.J.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Gumuskaya",
+              "initials": "Volkan",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Dijkman",
+              "initials": "Remco M.",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Co-Location Specification for IoT-Aware Collaborative Business Processes\n\nCAiSE Forum 2019, Rome, Italy, June 3–7, 2019, Proceedings",
+          "sub_title": "CAiSE Forum 2019, Rome, Italy, June 3–7, 2019, Proceedings",
+          "year": 2019,
+          "start": 120,
+          "end": 132,
+          "type": "Productbijdrage",
+          "url_open_access": "--",
+          "journal_title": "Springer",
+          "authors": [
+            {
+              "last_name": "Ruiz",
+              "initials": "Marcela",
+              "role": "Editor"
+            },
+            {
+              "last_name": "Brouns",
+              "initials": "Nadja",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Grefen",
+              "initials": "Paul W.P.J.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Cappiello",
+              "initials": "Cinzia",
+              "role": "Editor"
+            },
+            {
+              "last_name": "Serral Asensio",
+              "initials": "Estefania",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Ludwig",
+              "initials": "Heiko",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "The Cargo Fare Class Mix problem for an intermodal corridor: revenue management in synchromodal container transportation",
+          "year": 2017,
+          "edition": "29",
+          "start": 634,
+          "end": 658,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "https://doi.org/10.1007/s10696-017-9285-7",
+          "journal_title": "Flexible Services and Manufacturing Journal",
+          "authors": [
+            {
+              "last_name": "Riessen van",
+              "initials": "Bart",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Negenborn",
+              "initials": "Rudy R.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Dekker",
+              "initials": "Rommert",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Dynamic Barge Planning with Stochastic Container Arrivals",
+          "year": 2020,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "Under review",
+          "journal_title": "Transportation Research Part E: Logistics and Transportation Review",
+          "authors": [
+            {
+              "last_name": "Gumuskaya",
+              "initials": "Volkan",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Jaarsveld van",
+              "initials": "Willem L.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Dijkman",
+              "initials": "Remco M.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Grefen",
+              "initials": "Paul W.P.J.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Veenstra",
+              "initials": "Albert",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "A Framework for Modelling and Analysing Coordination Challenges in Hinterland Transport Systems",
+          "year": 2020,
+          "edition": "22",
+          "start": 124,
+          "end": 145,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "https://doi.org/10.1057/s41278-019-00139-1",
+          "journal_title": "Maritime Economics and Logistics",
+          "authors": [
+            {
+              "last_name": "Veenstra",
+              "initials": "Albert",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Jaarsveld van",
+              "initials": "Willem L.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Grefen",
+              "initials": "Paul W.P.J.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Gumuskaya",
+              "initials": "Volkan",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Dijkman",
+              "initials": "Remco M.",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Shippers’ willingness to delegate modal control in freight transportation",
+          "year": 2020,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "Accepted for publication",
+          "journal_title": "Transportation Research Part E: Logistics and Transportation Review",
+          "authors": [
+            {
+              "last_name": "Tavasszy",
+              "initials": "L.A.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Khakdaman",
+              "initials": "M.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Rezaei",
+              "initials": "J.",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Shippers’ willingness to use flexible transportation services",
+          "year": 2020,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "Under review",
+          "journal_title": "Transportation Research Part A: Policy and Practice",
+          "authors": [
+            {
+              "last_name": "Khakdaman",
+              "initials": "M.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Tavasszy",
+              "initials": "J.A.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Rezaei",
+              "initials": "J.",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Revenue Management with Two Fare Classes in Synchromodal Container Transportation",
+          "year": 2020,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "Under review",
+          "journal_title": "Transportation Research",
+          "authors": [
+            {
+              "last_name": "Mulder",
+              "initials": "Judith",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "van Riessen",
+              "initials": "Bart",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Negenborn",
+              "initials": "Rudy",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Dekker",
+              "initials": "Rommert",
+              "role": "Auteur"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project_id": "864.14.003",
+      "title": "Lateral root patterning in plants: multi-scale modelling of complex feedbacks",
+      "funding_scheme_id": 787,
+      "funding_scheme": "NWO-Talentprogramma Vidi 2014 ALW",
+      "department": "Exacte en Natuurwetenschappen",
+      "sub_department": "Aard- en Levenswetenschappen",
+      "start_date": "2015-10-01T00:00:00",
+      "end_date": "2021-09-01T00:00:00",
+      "reporting_year": 2015,
+      "summary_nl": "Pattern formation is crucial for many biological processes, ranging from the coordinated contraction of the heart to the shaping of the body plan during development. Throughout my career I have been fascinated by complex patterning processes and have become an expert in the development of state-of-the-art integrative models to unravel pattern-forming mechanisms.\n\nPlants root architecture consists of a striking, spatially regular, left right alternating pattern of lateral roots along the main root. The resulting density, total number and size of lateral roots determine a plant's efficiency in taking up water and nutrients from the soil. Given the food-security challenges posed by climate change and a rising world population, a thorough understanding of lateral root patterning that would allow for more efficient methods to adjust plant root architecture to adverse environmental conditions is of paramount importance. However, seemingly disparate experimental observations have led to a major controversy on the possible mechanism behind lateral root patterning, and many competing hypotheses have been proposed. \n\nThe key aim of this proposal is to develop a comprehensive, mechanistic model of lateral root patterning, that simulates the dynamic patterning of root system architecture from the complex interplays between cell level gene expression, tissue level hormone transport and organ level growth processes. Such a model is urgently needed to explicitly test the different hypothesised mechanisms for root patterning and reconcile the seemingly disparate experimental observations. Furthermore, by iterating between modelling and experimentation these mechanisms will be validated and refined, thus allowing me to identify the root patterning mechanism at work in plants. My expertise in developing sophisticated models to unravel complex patterning processes combined with my collaboration with world renowned plant development groups provide the ideal scenario for turning this project into a success. ",
+      "summary_en": "Pattern formation is crucial for many biological processes, ranging from the coordinated contraction of the heart to the shaping of the body plan during development. Throughout my career I have been fascinated by complex patterning processes and have become an expert in the development of state-of-the-art integrative models to unravel pattern-forming mechanisms.\n\nPlants root architecture consists of a striking, spatially regular, left right alternating pattern of lateral roots along the main root. The resulting density, total number and size of lateral roots determine a plant's efficiency in taking up water and nutrients from the soil. Given the food-security challenges posed by climate change and a rising world population, a thorough understanding of lateral root patterning that would allow for more efficient methods to adjust plant root architecture to adverse environmental conditions is of paramount importance. However, seemingly disparate experimental observations have led to a major controversy on the possible mechanism behind lateral root patterning, and many competing hypotheses have been proposed. \n\nThe key aim of this proposal is to develop a comprehensive, mechanistic model of lateral root patterning, that simulates the dynamic patterning of root system architecture from the complex interplays between cell level gene expression, tissue level hormone transport and organ level growth processes. Such a model is urgently needed to explicitly test the different hypothesised mechanisms for root patterning and reconcile the seemingly disparate experimental observations. Furthermore, by iterating between modelling and experimentation these mechanisms will be validated and refined, thus allowing me to identify the root patterning mechanism at work in plants. My expertise in developing sophisticated models to unravel complex patterning processes combined with my collaboration with world renowned plant development groups provide the ideal scenario for turning this project into a success. ",
+      "summary_updates": [
+        {
+          "submission_date": "2021-12-13T13:50:53",
+          "update_en": "In this project we used so-called multi scale computer models to decipher how a plants main root determines where along its axis new lateral roots will be formed. The mechanism we uncovered was subsequently validated experimentally with help from experimental collaborators.\n\n\n\nIn another part of the project we investigated how, after seed germination, a plant root awakenes, gradually increases its growth speed and then reaches a stable growth velocity. Again, we combined computational modeling with an experimental collaboration to decipher the underlying mechanism.",
+          "update_nl": "In dit project hebben we door gebruik te maken van zogenaamde multi-scale computermodellen achterhaald hoe een plantenwortel bepaalt waar langs de hoofdwortel in de toekomst nieuwe zijwortels gevormd kunnen worden. Het mechanisme dat we met onze modellen ontdekt hebben hebben we vervolgens middels experimenten uitgevoerd door de experimenteel biologen waar we intensief mee samenwerken bevestigd.\n\n\n\nIn een ander deelproject hebben we onderzocht hoe, na de kieming van een zaadje, een plantenworteltje \"ontwaakt\" en steeds een beetje harder gaat groeien voordat het een constante groeisnelheid bereikt. Ook hier is een computermodel voor gebouwd en uitgebreid samengewerkt met experimenteel biologen."
+        }
+      ],
+      "project_members": [
+        {
+          "role": "Main Applicant",
+          "member_id": 118026,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Tusscher",
+          "degree_pre_nominal": "prof. dr.",
+          "initials": "K.H.W.J.",
+          "first_name": "Kirsten",
+          "prefix": "ten",
+          "organisation": "Universiteit Utrecht||Faculteit Bètawetenschappen||Departement Biologie||Theoretische Biologie en Bioinformatica",
+          "organisation_id": 80297,
+          "active": true
+        },
+        {
+          "role": "Researcher",
+          "member_id": 544509,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Niet Bekend",
+          "initials": "N.B.",
+          "organisation": "Onbekend",
+          "organisation_id": 5229,
+          "active": false
+        },
+        {
+          "role": "Project leader",
+          "member_id": 118026,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Tusscher",
+          "degree_pre_nominal": "prof. dr.",
+          "initials": "K.H.W.J.",
+          "first_name": "Kirsten",
+          "prefix": "ten",
+          "organisation": "Universiteit Utrecht||Faculteit Bètawetenschappen||Departement Biologie||Theoretische Biologie en Bioinformatica",
+          "organisation_id": 80297,
+          "active": false
+        },
+        {
+          "role": "Researcher",
+          "member_id": 202537,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Weise",
+          "degree_pre_nominal": "dr.",
+          "initials": "L.D.",
+          "first_name": "Daniel",
+          "organisation": "Universiteit Utrecht||Faculteit Bètawetenschappen||Departement Biologie",
+          "organisation_id": 80950,
+          "active": false
+        },
+        {
+          "role": "Researcher",
+          "member_id": 417455,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Berg",
+          "initials": "T.",
+          "first_name": "Thea",
+          "prefix": "van den",
+          "organisation": "Universiteit Utrecht||Faculteit Bètawetenschappen||Departement Biologie",
+          "organisation_id": 80950,
+          "active": false
+        },
+        {
+          "role": "Researcher",
+          "member_id": 253412,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Vroomans",
+          "degree_post_nominal": "MSc",
+          "initials": "R.M.A.",
+          "first_name": "Renske",
+          "organisation": "Universiteit Utrecht||Faculteit Bètawetenschappen||Departement Biologie||Theoretische Biologie en Bioinformatica",
+          "organisation_id": 80297,
+          "active": false
+        },
+        {
+          "role": "Researcher",
+          "member_id": 118026,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Tusscher",
+          "degree_pre_nominal": "prof. dr.",
+          "initials": "K.H.W.J.",
+          "first_name": "Kirsten",
+          "prefix": "ten",
+          "organisation": "Universiteit Utrecht||Faculteit Bètawetenschappen||Departement Biologie||Theoretische Biologie en Bioinformatica",
+          "organisation_id": 80297,
+          "active": false
+        },
+        {
+          "role": "Researcher",
+          "member_id": 417456,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Rutten",
+          "initials": "J.P.",
+          "first_name": "Jaap",
+          "organisation": "Universiteit Utrecht||Faculteit Bètawetenschappen||Departement Biologie",
+          "organisation_id": 80950,
+          "active": false
+        }
+      ],
+      "products": [
+        {
+          "title": "Modeling halotropism: A key role for root tip architecture and reflux loop remodeling in redistributing auxin.",
+          "year": 2016,
+          "edition": "143",
+          "start": 3350,
+          "end": 3362,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "http://dev.biologists.org/content/143/18/3350.long",
+          "journal_title": "Development",
+          "authors": [
+            {
+              "last_name": "Tusscher",
+              "initials": "K.H.W.J.",
+              "first_name": "Kirsten",
+              "prefix": "ten",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Berg",
+              "initials": "T",
+              "first_name": "Thea",
+              "prefix": "van den",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Korver",
+              "initials": "R.A.",
+              "first_name": "Ruud",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Testerink",
+              "initials": "C",
+              "first_name": "Christa",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Periodic Lateral Root Priming: What Makes It Tick?",
+          "year": 2017,
+          "edition": "29",
+          "start": 432,
+          "end": 444,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "doi:10.1105/tpc.16.00638\n\n\n\nhttp://www.plantcell.org/content/29/3/432.long",
+          "journal_title": "Plant Cell",
+          "authors": [
+            {
+              "last_name": "Laskowski",
+              "initials": "M",
+              "first_name": "Marta",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Tusscher",
+              "initials": "KHWJ",
+              "first_name": "Kirsten",
+              "prefix": "ten",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Auxin Information Processing; Partners and Interactions beyond the Usual Suspects.",
+          "year": 2017,
+          "edition": "18",
+          "start": 2585,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "doi:10.3390/ijms18122585",
+          "journal_title": "Int J Mol Sci",
+          "authors": [
+            {
+              "last_name": "Berg",
+              "initials": "T",
+              "first_name": "Thea",
+              "prefix": "van den",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Tusscher",
+              "initials": "KHWJ",
+              "first_name": "Kirsten",
+              "prefix": "ten",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Halotropism requires phospholipase D?1-mediated modulation of cellular polarity of auxin transport carriers.",
+          "year": 2020,
+          "edition": "43",
+          "start": 143,
+          "end": 158,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "doi: 10.1111/pce.13646",
+          "journal_title": "Plant Cell Environ",
+          "authors": [
+            {
+              "last_name": "Tusscher",
+              "initials": "KH",
+              "first_name": "Kirsten",
+              "prefix": "ten",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "In Silico Roots: Room for Growth",
+          "year": 2019,
+          "edition": "24",
+          "start": 250,
+          "end": 262,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "doi: 10.1016/j.tplants",
+          "journal_title": "Trends Plant Sci",
+          "authors": [
+            {
+              "last_name": "Tusscher",
+              "initials": "KH",
+              "first_name": "Kirsten",
+              "prefix": "ten",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Of mice and plants: Comparative developmental systems biology.",
+          "year": 2020,
+          "edition": "460",
+          "start": 32,
+          "end": 39,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "doi: 10.1016/j.ydbio.2018.10.024",
+          "journal_title": "Dev Biol.",
+          "authors": [
+            {
+              "last_name": "Tusscher",
+              "initials": "KH",
+              "first_name": "Kirsten",
+              "prefix": "ten",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "A Self-Organized PLT/Auxin/ARR-B Network Controls the Dynamics of Root Zonation Development in Arabidopsis thaliana.",
+          "year": 2020,
+          "edition": "53",
+          "start": 431,
+          "end": 443,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "doi: 10.1016/j.devcel.2020.04.004",
+          "journal_title": "Dev Cell.",
+          "authors": [
+            {
+              "last_name": "Tusscher",
+              "initials": "KH",
+              "first_name": "Kirsten",
+              "prefix": "ten",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Discrete mechanical growth model for plant tissue.",
+          "year": 2019,
+          "edition": "14",
+          "start": 221059,
+          "end": 221059,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "doi: 10.1371/journal.pone.0221059",
+          "journal_title": "PLoS ONE",
+          "authors": [
+            {
+              "last_name": "Tusscher",
+              "initials": "KH",
+              "first_name": "Kirsten",
+              "prefix": "ten",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "A reflux-and-growth mechanism explains oscillatory patterning of lateral root branching sites",
+          "year": 2021,
+          "edition": "56",
+          "start": 2176,
+          "end": 2191,
+          "type": "Wetenschappelijk artikel",
+          "journal_title": "Dev Cell",
+          "authors": [
+            {
+              "last_name": "Tusscher",
+              "initials": "KH",
+              "first_name": "Kirsten",
+              "prefix": "ten",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Bootstrapping and Pinning down the Root Meristem; the Auxin-PLT-ARR Network Unites Robustness and Sensitivity in Meristem Growth Control.",
+          "year": 2021,
+          "edition": "22",
+          "start": 4731,
+          "end": 4731,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "doi: 10.3390/ijms22094731.",
+          "journal_title": "Int J Mol Sci.",
+          "authors": [
+            {
+              "last_name": "Tusscher",
+              "initials": "KH",
+              "first_name": "Kirsten",
+              "prefix": "ten",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Modeling Auxin Signaling in Roots: Auxin Computations",
+          "year": 2021,
+          "edition": "040089",
+          "start": 40089,
+          "end": 40089,
+          "type": "Wetenschappelijk artikel",
+          "journal_title": "Cold Spring Harb Perspect Biol",
+          "authors": [
+            {
+              "last_name": "Tusscher",
+              "initials": "KH",
+              "first_name": "Kirsten",
+              "prefix": "ten",
+              "role": "Auteur"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project_id": "629.002.102",
+      "title": "NextGenSmart DC",
+      "funding_scheme_id": 1585,
+      "funding_scheme": "Indo Dutch Science Industry Collaboration 2013 2013 EW",
+      "department": "Exacte en Natuurwetenschappen",
+      "sub_department": "Exacte Wetenschappen",
+      "start_date": "2015-09-01T00:00:00",
+      "end_date": "2022-12-31T00:00:00",
+      "reporting_year": 2014,
+      "summary_nl": "In today’s data-centric world, people expect the right data to be available everywhere, anytime, cheaply, in growing quantities, and ‘processed right’. This requires an efficient, always-available infrastructure. Growing environmental concerns also demand that the infrastructure is sustainable and uses resources cautiously.  Important results have been obtained in the design of algorithms for scheduling within data centers to reduce CO2 emissions. The idea is to minimize the amount of CO2 emitted per set of jobs to be run in a data center by appropriate temporal and spatial scheduling, privileging energy from renewable sources.",
+      "summary_en": "De wereld van vandaag is een data-centrische wereld waarin men verwacht dat data overal beschikbaar is, op het juiste moment, op de juiste plaats, in de gewenste hoeveelheid, en verwerkt op een gepaste manier. Dit vereist een betrouwbare en efficiënte infrastructuur. Deze infrastructuur moet ook zuinig en duurzaam zijn vanwege de toenemende bezorgdheid om het milieu. Er zijn belangrijke resultaten geboekt in het ontwerpen van algoritmen voor het reduceren van de door datacenters veroorzaakte CO2 uitstoot. Deze algoritmen minimaliseren de CO2 uitstoot van workloads door ze op het optimale moment in plaats en tijd.",
+      "project_members": [
+        {
+          "role": "Researcher",
+          "member_id": 485001,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Haghshenas",
+          "degree_pre_nominal": "dr.",
+          "initials": "C.I.",
+          "first_name": "Kawsar",
+          "organisation": "Universität Stuttgart - Institut für Architektur von Anwendungssystemen",
+          "organisation_id": 403656,
+          "active": false
+        },
+        {
+          "role": "Co-applicant",
+          "member_id": 269746,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Gangadharan",
+          "degree_pre_nominal": "dr.",
+          "initials": "G.R.",
+          "organisation": "Institute for Development and Research in Banking Technology",
+          "organisation_id": 24980,
+          "active": true
+        },
+        {
+          "role": "Main Applicant",
+          "member_id": 167403,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Aiello",
+          "degree_pre_nominal": "prof. dr. ir.",
+          "initials": "M.",
+          "first_name": "Marco",
+          "organisation": "Rijksuniversiteit Groningen||Faculty of Science and Engineering (FSE)||Bernoulli Institute for Mathematics Computer Science and Artificial Intelligence",
+          "organisation_id": 72806,
+          "active": true
+        },
+        {
+          "role": "Researcher",
+          "member_id": 401524,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Chirayath Manjiyil Inasu",
+          "degree_pre_nominal": "mr.",
+          "initials": "J.C.I.",
+          "first_name": "John Paul",
+          "organisation": "Institute for Development and Research in Banking Technology",
+          "organisation_id": 24980,
+          "active": false
+        },
+        {
+          "role": "Project leader",
+          "member_id": 167403,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Aiello",
+          "degree_pre_nominal": "prof. dr. ir.",
+          "initials": "M.",
+          "first_name": "Marco",
+          "organisation": "Universität Stuttgart - Institut für Architektur von Anwendungssystemen",
+          "organisation_id": 403656,
+          "active": true
+        },
+        {
+          "role": "Researcher",
+          "member_id": 436056,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Rouhani",
+          "initials": "M.H.",
+          "first_name": "Mohammad",
+          "organisation": "Stuttgart University",
+          "organisation_id": 410293,
+          "active": false
+        },
+        {
+          "role": "Researcher",
+          "member_id": 327293,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Vemula",
+          "degree_pre_nominal": "mr.",
+          "initials": "D.R.",
+          "first_name": "Dinesh Reddy",
+          "organisation": "Institute for Development and Research in Banking Technology",
+          "organisation_id": 24980,
+          "active": false
+        },
+        {
+          "role": "Researcher",
+          "member_id": 541926,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Setz",
+          "degree_pre_nominal": "dr.",
+          "initials": "B.",
+          "first_name": "Brian",
+          "organisation": "Rijksuniversiteit Groningen||Faculty of Science and Engineering (FSE)",
+          "organisation_id": 56270,
+          "active": false
+        }
+      ],
+      "products": [
+        {
+          "title": "Power Management of Personal Computers based on User Behaviour",
+          "year": 2016,
+          "edition": "1",
+          "start": 409,
+          "end": 416,
+          "type": "Productbijdrage",
+          "journal_title": "SciTePress",
+          "authors": [
+            {
+              "last_name": "Setz",
+              "initials": "B.",
+              "first_name": "Brian",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Nizamic",
+              "initials": "F.",
+              "first_name": "Faris",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Lazovik",
+              "initials": "A.",
+              "first_name": "Aliaksandr",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Aiello",
+              "initials": "M.",
+              "first_name": "Marco",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Metrics for Sustainable Data Centers",
+          "year": 2017,
+          "edition": "2",
+          "start": 290,
+          "end": 303,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "http://ieeexplore.ieee.org/abstract/document/7921551/",
+          "journal_title": "IEEE Transactions on Sustainable Computing",
+          "authors": [
+            {
+              "last_name": "Aiello",
+              "initials": "M.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Reddy",
+              "initials": "V. D.",
+              "first_name": "Dinesh",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Gangadharan",
+              "initials": "G.R.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Setz",
+              "initials": "B.",
+              "first_name": "Brian",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Rao",
+              "initials": "V.R.K.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Subrahmanya",
+              "initials": "G.",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Energy aware Virtual Machine Allocation and Selection in Cloud Data Centers",
+          "year": 2017,
+          "edition": "1432",
+          "start": 1,
+          "end": 16,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "https://link.springer.com/article/10.1007/s00500-017-2905-z#citeas",
+          "journal_title": "Soft Computing",
+          "authors": [
+            {
+              "last_name": "Reddy",
+              "initials": "V.D.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Gangadharan",
+              "initials": "G.R.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Rao",
+              "initials": "G.S.V.R.K.",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "SYSTEM AND METHOD FOR DETERMINING OPTIMAL SOLUTION IN A SWARM OF SOLUTIONS USING SWARM INTELLIGENCE",
+          "year": 2017,
+          "type": "Octrooi",
+          "authors": [
+            {
+              "last_name": "-",
+              "role": "Houder"
+            },
+            {
+              "last_name": "Reddy",
+              "initials": "V. D.",
+              "role": "Uitvinder"
+            },
+            {
+              "last_name": "Rao",
+              "initials": "G. S. V. R. K.",
+              "role": "Uitvinder"
+            },
+            {
+              "last_name": "Gangadharan",
+              "initials": "G. R.",
+              "role": "Uitvinder"
+            }
+          ]
+        },
+        {
+          "title": "Best Practices for Sustainable Data Centers",
+          "year": 2018,
+          "edition": "20",
+          "start": 57,
+          "end": 7,
+          "type": "Wetenschappelijk artikel",
+          "journal_title": "IEEE IT Professional",
+          "authors": [
+            {
+              "last_name": "Rao",
+              "initials": "G S V R",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Gangadharan",
+              "initials": "G R",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Setz",
+              "initials": "B.",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Aiello",
+              "initials": "M.",
+              "first_name": "Marco",
+              "prefix": "49711685",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Dinesh Reddy",
+              "initials": "V",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Energy Efficient Data Center Management Strategies",
+          "year": 2018,
+          "city": "Hyderabad",
+          "edition": "1",
+          "type": "Proefschrift",
+          "journal_title": "IRDBT",
+          "authors": [
+            {
+              "last_name": "Dinesh Reddy",
+              "initials": "V",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "A Data Driven Approach to Monitoring Colocation Data Centers.",
+          "year": 2019,
+          "start": 234,
+          "end": 241,
+          "type": "Productbijdrage",
+          "url_open_access": "10.1109/DataCom.2019.00043",
+          "journal_title": "Springer",
+          "authors": [
+            {
+              "last_name": "Aiello",
+              "initials": "M",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Lazovik",
+              "initials": "A",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Rao",
+              "initials": "G. S. V. R. K.",
+              "first_name": "G. Subrahmanya V.R.K. Rao",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Setz",
+              "initials": "B",
+              "first_name": "Brian",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Towards Real-Time Monitoring of Data Centers using Edge Computing",
+          "year": 2020,
+          "start": 141,
+          "end": 148,
+          "type": "Productbijdrage",
+          "journal_title": "Springer",
+          "authors": [
+            {
+              "last_name": "Aiello",
+              "initials": "M",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Setz",
+              "initials": "B",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Energy-Efficient Resource Allocation in Data Centers Using a Hybrid Evolutionary Algorithm.",
+          "year": 2020,
+          "start": 71,
+          "end": 92,
+          "type": "Productbijdrage",
+          "publisher": "Springer",
+          "authors": [
+            {
+              "last_name": "Reddy",
+              "initials": "V D",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Gangadharan",
+              "initials": "G R",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Rao",
+              "initials": "G S V R K",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Aiello",
+              "initials": "M",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "A Comparison of Open-Source Home Automation Systems",
+          "year": 2021,
+          "edition": "9",
+          "start": 167332,
+          "end": 167352,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "https://ieeexplore.ieee.org/document/9652536",
+          "journal_title": "IEEE Access",
+          "authors": [
+            {
+              "last_name": "Ivanova",
+              "initials": "D",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Setz",
+              "initials": "B",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Aiello",
+              "initials": "M",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Tiessen",
+              "initials": "A",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Graef",
+              "initials": "S",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Enough Hot Air: The Role of Immersion Cooling",
+          "year": 2022,
+          "type": "Overige Output",
+          "url_open_access": "https://arxiv.org/abs/2205.04257",
+          "authors": [
+            {
+              "last_name": "Bloch",
+              "initials": "Y",
+              "role": "Maker"
+            },
+            {
+              "last_name": "Setz",
+              "initials": "B",
+              "role": "Maker"
+            },
+            {
+              "last_name": "Aiello",
+              "initials": "M",
+              "role": "Maker"
+            },
+            {
+              "last_name": "Haghshenas",
+              "initials": "K",
+              "role": "Maker"
+            }
+          ]
+        },
+        {
+          "title": "Optimal joint operation of coupled transportation and power distribution urban networks",
+          "year": 2022,
+          "edition": "5",
+          "start": 35,
+          "end": 45,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "https://energyinformatics.springeropen.com/articles/10.1186/s42162-022-00249-w",
+          "journal_title": "Energy Informatics",
+          "authors": [
+            {
+              "last_name": "Aiello",
+              "initials": "M",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Rouhani",
+              "initials": "M",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Haghshenas",
+              "initials": "K",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Sadhu",
+              "initials": "K",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "CO2 Emission Aware Scheduling for Deep Neural Network Training Workloads",
+          "year": 2022,
+          "start": 1542,
+          "end": 1549,
+          "type": "Productbijdrage",
+          "journal_title": "IEEE",
+          "authors": [
+            {
+              "last_name": "Aiello",
+              "initials": "M",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Haghshenas",
+              "initials": "K",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Setz",
+              "initials": "B",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Feature Based Representational Structures for Time Series",
+          "year": 2021,
+          "city": "Tiruchirappalli",
+          "type": "Proefschrift",
+          "url_open_access": "https://www.nitt.edu/home/academics/thesis/",
+          "journal_title": "National Institute of Technology",
+          "authors": [
+            {
+              "last_name": "Johnpaul",
+              "initials": "C I",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "An Internet of Things and Data-Driven Approach to Data Centers",
+          "year": 2022,
+          "city": "Stuttgart",
+          "type": "Proefschrift",
+          "url_open_access": "https://www.ub.uni-stuttgart.de/en/research-publishing/stuttgart-dissertations/",
+          "journal_title": "University of Stuttgart",
+          "authors": [
+            {
+              "last_name": "Setz",
+              "initials": "B",
+              "role": "Auteur"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project_id": "438-13-212",
+      "title": "Enhancing resilience while maintaining efficiency: planning and human decision-making for the unpredictable",
+      "funding_scheme_id": 1264,
+      "funding_scheme": "Duurzame Logistiek 2013 MaGW",
+      "department": "Sociale en Geesteswetenschappen",
+      "sub_department": "Maatschappij- en Gedragswetenschappen",
+      "start_date": "2015-09-01T00:00:00",
+      "end_date": "2021-09-06T00:00:00",
+      "reporting_year": 2014,
+      "summary_nl": "Today?s business environment is characterized by increased levels of connectivity: within companies through the application of lean and efficiency measures as well as between organizations due to an augmented level of supply chain integration. In such an interconnected world organizations recognize the potential risk of experiencing a supply chain disruption. To be able to manage the unforeseen, supply chains need to develop resilience. While the importance of being resilient to sustainable operations is without question, it remains unclear how supply chain resilience can be achieved and balanced with the need for efficiency. This project explores the antecedents of resilience aiming to make the concept more tangible and implementable for organizations. The proposed research intends to identify and test what critical elements in relation to vertical, horizontal and diagonal coordination mechanisms should be taken into account and included into the design of highly optimized supply chains to make them more resilient based on the 4C approach. More specifically, we will conduct a number of exploratory case studies with our business partners, building on our current projects with, among others, ProRail/Dutch Railways. Insights from exploratory case studies will provide the basis for further experiments with decision-makers in both the laboratory and in the field. Furthermore, a management training tool will be developed to further acquire insights into supply chain resilience as well as help managers to better deal with uncertainty. Results will be valorized through annual workshops, lectures, involvement of students and the use by TNO of the training tool. ",
+      "summary_en": "Today?s business environment is characterized by increased levels of connectivity: within companies through the application of lean and efficiency measures as well as between organizations due to an augmented level of supply chain integration. In such an interconnected world organizations recognize the potential risk of experiencing a supply chain disruption. To be able to manage the unforeseen, supply chains need to develop resilience. While the importance of being resilient to sustainable operations is without question, it remains unclear how supply chain resilience can be achieved and balanced with the need for efficiency. This project explores the antecedents of resilience aiming to make the concept more tangible and implementable for organizations. The proposed research intends to identify and test what critical elements in relation to vertical, horizontal and diagonal coordination mechanisms should be taken into account and included into the design of highly optimized supply chains to make them more resilient based on the 4C approach. More specifically, we will conduct a number of exploratory case studies with our business partners, building on our current projects with, among others, ProRail/Dutch Railways. Insights from exploratory case studies will provide the basis for further experiments with decision-makers in both the laboratory and in the field. Furthermore, a management training tool will be developed to further acquire insights into supply chain resilience as well as help managers to better deal with uncertainty. Results will be valorized through annual workshops, lectures, involvement of students and the use by TNO of the training tool. ",
+      "project_members": [
+        {
+          "role": "Researcher",
+          "member_id": 246958,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Subasi",
+          "degree_post_nominal": "MSc",
+          "initials": "B.",
+          "first_name": "Burcu",
+          "organisation": "Rijksuniversiteit Groningen",
+          "organisation_id": 7905,
+          "active": false
+        },
+        {
+          "role": "Main Applicant",
+          "member_id": 146178,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Donk",
+          "degree_pre_nominal": "prof. dr.",
+          "initials": "D.P.",
+          "first_name": "Dirk Pieter",
+          "prefix": "van",
+          "organisation": "Rijksuniversiteit Groningen||Faculteit Economie en Bedrijfskunde||Operations",
+          "organisation_id": 74713,
+          "active": true
+        },
+        {
+          "role": "Project leader",
+          "member_id": 146178,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Donk",
+          "degree_pre_nominal": "prof. dr.",
+          "initials": "D.P.",
+          "first_name": "Dirk Pieter",
+          "prefix": "van",
+          "organisation": "Rijksuniversiteit Groningen||Faculteit Economie en Bedrijfskunde",
+          "organisation_id": 62578,
+          "active": false
+        },
+        {
+          "role": "Co-applicant",
+          "member_id": 148475,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Vegt",
+          "degree_pre_nominal": "prof. dr.",
+          "initials": "G.S.",
+          "first_name": "Gerben",
+          "prefix": "van der",
+          "organisation": "Rijksuniversiteit Groningen||Faculteit Economie en Bedrijfskunde||Human Resource Management and Organizational Behavior",
+          "organisation_id": 78513,
+          "active": true
+        },
+        {
+          "role": "Researcher",
+          "member_id": 346713,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Vries",
+          "degree_pre_nominal": "dr.",
+          "initials": "T.A.",
+          "first_name": "Thom",
+          "prefix": "de",
+          "organisation": "Rijksuniversiteit Groningen||Faculteit Economie en Bedrijfskunde||Human Resource Management and Organizational Behavior",
+          "organisation_id": 78513,
+          "active": false
+        },
+        {
+          "role": "Co-applicant",
+          "member_id": 96812,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Essens",
+          "degree_pre_nominal": "dr.",
+          "initials": "P.J.M.D.",
+          "first_name": "Peter",
+          "organisation": "TNO Soesterberg||Technische Menskunde||Cognitieve Psychologie",
+          "organisation_id": 77927,
+          "active": true
+        },
+        {
+          "role": "Co-applicant",
+          "member_id": 166393,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Fey",
+          "degree_pre_nominal": "dr. ir.",
+          "initials": "J.J.H.",
+          "first_name": "Jeroen",
+          "organisation": "FrieslandCampina||Corporate Operational Affairs",
+          "organisation_id": 65603,
+          "active": true
+        },
+        {
+          "role": "Co-applicant",
+          "member_id": 283914,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Enthoven",
+          "degree_pre_nominal": "ir.",
+          "initials": "B.",
+          "organisation": "Waterbedrijf Groningen",
+          "organisation_id": 9881,
+          "active": true
+        },
+        {
+          "role": "Co-applicant",
+          "member_id": 393319,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Scholten",
+          "degree_pre_nominal": "dr.",
+          "initials": "K.",
+          "first_name": "Kirstin",
+          "organisation": "Rijksuniversiteit Groningen",
+          "organisation_id": 7905,
+          "active": true
+        },
+        {
+          "role": "Co-applicant",
+          "member_id": 283912,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Dussen",
+          "initials": "N.",
+          "first_name": "Nico",
+          "prefix": "van der",
+          "organisation": "Variass electronics",
+          "organisation_id": 9599,
+          "active": true
+        },
+        {
+          "role": "Co-applicant",
+          "member_id": 283915,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Brouwer",
+          "initials": "M.",
+          "first_name": "Maarten",
+          "organisation": "Bosch Thermotechniek B.V.",
+          "organisation_id": 17663,
+          "active": true
+        },
+        {
+          "role": "Co-applicant",
+          "member_id": 346713,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Vries",
+          "degree_pre_nominal": "dr.",
+          "initials": "T.A.",
+          "first_name": "Thom",
+          "prefix": "de",
+          "organisation": "Rijksuniversiteit Groningen||Faculteit Economie en Bedrijfskunde||Human Resource Management and Organizational Behavior",
+          "organisation_id": 78513,
+          "active": true
+        },
+        {
+          "role": "Researcher",
+          "member_id": 587647,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Dittfeld",
+          "degree_post_nominal": "MSc",
+          "initials": "H",
+          "first_name": "Hendryk",
+          "organisation": "Rijksuniversiteit Groningen||Faculteit Economie en Bedrijfskunde",
+          "organisation_id": 62578,
+          "active": false
+        },
+        {
+          "role": "Researcher",
+          "member_id": 375422,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Adel",
+          "degree_post_nominal": "MSc",
+          "initials": "M.J.",
+          "first_name": "Mitchell",
+          "prefix": "van den",
+          "organisation": "Rijksuniversiteit Groningen",
+          "organisation_id": 7905,
+          "active": false
+        }
+      ],
+      "products": [
+        {
+          "title": "Lean Public Water Supply",
+          "year": 2017,
+          "city": "New York",
+          "edition": "1",
+          "start": 368,
+          "end": 377,
+          "type": "Productbijdrage",
+          "publisher": "New York: Routledge",
+          "authors": [
+            {
+              "last_name": "Scholten",
+              "initials": "K",
+              "role": "Auteur",
+              "index_number": 1
+            },
+            {
+              "last_name": "Netland",
+              "initials": "TH",
+              "role": "Editor",
+              "index_number": 1
+            },
+            {
+              "last_name": "Ward",
+              "initials": "B",
+              "role": "Auteur",
+              "index_number": 2
+            },
+            {
+              "last_name": "Powell",
+              "initials": "DJ",
+              "role": "Editor",
+              "index_number": 2
+            },
+            {
+              "last_name": "van Donk",
+              "initials": "DP",
+              "role": "Auteur",
+              "index_number": 3
+            }
+          ]
+        },
+        {
+          "title": "Risk Management In Sales & Operations Planning: Empirical Evidence From 7 Cases",
+          "year": 2017,
+          "edition": "1",
+          "start": 1,
+          "end": 10,
+          "type": "Productbijdrage",
+          "journal_title": "EurOMA conference",
+          "authors": [
+            {
+              "last_name": "Dittfeld",
+              "initials": "H",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "The Influence Of Context On The Effectiveness Of Boundary Spanning In Enhancing Supply Chain Resilience: Does One Size Fit All?",
+          "year": 2017,
+          "edition": "1",
+          "start": 1,
+          "end": 10,
+          "type": "Productbijdrage",
+          "journal_title": "EuroMA conference Edinburgh 2017",
+          "authors": [
+            {
+              "last_name": "van den Adel",
+              "initials": "M",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Can We Keep It Central? How Teams Can Effectively Deal With Supply Chain Disruptions",
+          "year": 2017,
+          "edition": "1",
+          "start": 1,
+          "end": 10,
+          "type": "Productbijdrage",
+          "journal_title": "EurOMA Conference Edinburgh 2017",
+          "authors": [
+            {
+              "last_name": "De Vries",
+              "initials": "T",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Supply Chain Resilience As An Extension Of Risk Management?",
+          "year": 2017,
+          "edition": "1",
+          "start": 1,
+          "end": 10,
+          "type": "Productbijdrage",
+          "journal_title": "EurOMA Conference Edinburgh 2019",
+          "authors": [
+            {
+              "last_name": "Scholten",
+              "initials": "K",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Scheper",
+              "initials": "A",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Does Supply Chain Integration Help or Hinder in Building Resilient Supply Chains?",
+          "year": 2017,
+          "edition": "1",
+          "start": 1,
+          "end": 30,
+          "type": "Productbijdrage",
+          "journal_title": "Academy of Management Conference proceedings 2017, Atlanta US",
+          "authors": [
+            {
+              "last_name": "van Donk",
+              "initials": "DP",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Burden or blessing in disguise: Interactions in supply chain complexity",
+          "year": 2018,
+          "edition": "38",
+          "start": 314,
+          "end": 332,
+          "type": "Wetenschappelijk artikel",
+          "journal_title": "International Journal of Operations & Production",
+          "authors": [
+            {
+              "last_name": "Dittfeld",
+              "initials": "H",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "The Role of Collaboration in Supply Chain Resilience\n\n, Vol. 20 No. 4, pp. 471-484 by Scholten, K. and Schilder, S. (2015),",
+          "year": 2015,
+          "edition": "20",
+          "start": 471,
+          "end": 484,
+          "type": "Wetenschappelijk artikel",
+          "journal_title": "Supply Chain Management: an International Journal",
+          "authors": [
+            {
+              "last_name": "Scholten",
+              "initials": "K.S.",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Managing Risk and Resilience",
+          "year": 2015,
+          "edition": "58",
+          "start": 971,
+          "end": 980,
+          "type": "Wetenschappelijk artikel",
+          "journal_title": "Academy of Management Journal",
+          "authors": [
+            {
+              "last_name": "van der Vegt",
+              "initials": "G.S.",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Dealing with the unpredictable: supply chain resilience",
+          "year": 2020,
+          "edition": "40",
+          "start": 1,
+          "end": 10,
+          "type": "Wetenschappelijk artikel",
+          "journal_title": "International Journal of Operations & Production Managemen",
+          "authors": [
+            {
+              "last_name": "Scholten",
+              "initials": "K",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Shared sorrow is half a sorrow: The role of social capital in building resilient supply chains",
+          "year": 2017,
+          "edition": "1",
+          "start": 364,
+          "end": 380,
+          "type": "Productbijdrage",
+          "publisher": "Routledge",
+          "authors": [
+            {
+              "last_name": "Engemann",
+              "initials": "K",
+              "role": "Editor"
+            },
+            {
+              "last_name": "van den Adel",
+              "initials": "M.",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "The future of resilient supply chains\n\nSeries in Supply Chain Management; Vol. 7",
+          "sub_title": "Series in Supply Chain Management; Vol. 7",
+          "year": 2019,
+          "edition": "1",
+          "start": 169,
+          "end": 188,
+          "type": "Productbijdrage",
+          "publisher": "Spinger",
+          "authors": [
+            {
+              "last_name": "Donadoni",
+              "initials": "M",
+              "role": "Auteur"
+            },
+            {
+              "last_name": "Zsidisin",
+              "initials": "G.A.",
+              "role": "Editor"
+            }
+          ]
+        },
+        {
+          "title": "Proactively and reactively managing risks through sales & operations planning",
+          "year": 2020,
+          "type": "Wetenschappelijk artikel",
+          "url_open_access": "https://doi.org/10.1108/IJPDLM-07-2019-0215",
+          "journal_title": "Journal of Physical Distribution & Logistics Management",
+          "authors": [
+            {
+              "last_name": "Dittfeld",
+              "initials": "H",
+              "role": "Auteur"
+            }
+          ]
+        },
+        {
+          "title": "Onderzoek naar succesvol samenwerken: Er is een trade-off tussen effectiviteit en coördinatie",
+          "year": 2020,
+          "edition": "2",
+          "start": 30,
+          "end": 32,
+          "type": "Publicatie",
+          "journal_title": "NGInfra Magazine",
+          "authors": [
+            {
+              "last_name": "van Donk",
+              "initials": "DP",
+              "role": "Maker"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "project_id": "451-14-002",
+      "title": "Network psychometrics: Methods for uncovering the architecture and dynamics of mood disorders",
+      "funding_scheme_id": 455,
+      "funding_scheme": "NWO-Talentprogramma Veni 2014 MaGW",
+      "department": "Sociale en Geesteswetenschappen",
+      "sub_department": "Maatschappij- en Gedragswetenschappen",
+      "start_date": "2015-09-01T00:00:00",
+      "end_date": "2020-09-16T00:00:00",
+      "reporting_year": 2014,
+      "summary_nl": "I have recently introduced network theory into the field of clinical psychology (Cramer, Waldorp, Van der Maas, & Borsboom, 2010). This is a novel theoretical and psychometric perspective in which psychological constructs, such as major depression, are conceptualized as networks of interacting components (e.g., insomnia &#8594; fatigue &#8594; concentration problems). In network theory, each individual may have a unique network structure (e.g., of depressive symptoms). These individual networks may differ in architecture (i.e., whether and how strongly symptoms are connected) and in the resulting dynamics: some networks will easily end up in a pathological state (e.g., depressed) while others will never leave the healthy state. In previous work, I have successfully used this approach to explain important empirical phenomena of psychopathology, such as comorbidity and spontaneous recovery, and have shown that empirical evidence from various sources is consistent with network theory. Although the theory is highly promising, its accompanying psychometric toolbox is still underdeveloped. Specifically, currently available methods have not been vigorously tested in terms of how well they perform under different circumstances (e.g., small sample sizes), and much needed methods and models have simply not been developed at all yet (e.g., methods to compare weighted networks). Therefore, the primary aim of this proposal is to develop network psychometrics, a toolbox that contains an array of validated methods designed to track the architecture and dynamics of individual networks. In addition, the resulting techniques will be applied to mood disorders. With these methods, I will be able to dig deeper than in earlier work into the mysteries of mood disorders with the potential to, for example, predict when people might be on the brink of collapsing into a depressed state. ",
+      "summary_en": "I have recently introduced network theory into the field of clinical psychology (Cramer, Waldorp, Van der Maas, & Borsboom, 2010). This is a novel theoretical and psychometric perspective in which psychological constructs, such as major depression, are conceptualized as networks of interacting components (e.g., insomnia &#8594; fatigue &#8594; concentration problems). In network theory, each individual may have a unique network structure (e.g., of depressive symptoms). These individual networks may differ in architecture (i.e., whether and how strongly symptoms are connected) and in the resulting dynamics: some networks will easily end up in a pathological state (e.g., depressed) while others will never leave the healthy state. In previous work, I have successfully used this approach to explain important empirical phenomena of psychopathology, such as comorbidity and spontaneous recovery, and have shown that empirical evidence from various sources is consistent with network theory. Although the theory is highly promising, its accompanying psychometric toolbox is still underdeveloped. Specifically, currently available methods have not been vigorously tested in terms of how well they perform under different circumstances (e.g., small sample sizes), and much needed methods and models have simply not been developed at all yet (e.g., methods to compare weighted networks). Therefore, the primary aim of this proposal is to develop network psychometrics, a toolbox that contains an array of validated methods designed to track the architecture and dynamics of individual networks. In addition, the resulting techniques will be applied to mood disorders. With these methods, I will be able to dig deeper than in earlier work into the mysteries of mood disorders with the potential to, for example, predict when people might be on the brink of collapsing into a depressed state. ",
+      "project_members": [
+        {
+          "role": "Main Applicant",
+          "member_id": 207261,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Cramer",
+          "degree_pre_nominal": "dr.",
+          "initials": "A.O.J.",
+          "first_name": "Angélique",
+          "organisation": "Universiteit van Amsterdam||Faculteit der Maatschappij- en Gedragswetenschappen||Klinische Psychologie",
+          "organisation_id": 75960,
+          "active": true
+        },
+        {
+          "role": "Researcher",
+          "member_id": 207261,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Cramer",
+          "degree_pre_nominal": "dr.",
+          "initials": "A.O.J.",
+          "first_name": "Angélique",
+          "organisation": "Universiteit van Amsterdam||Faculteit der Maatschappij- en Gedragswetenschappen||Klinische Psychologie",
+          "organisation_id": 75960,
+          "active": false
+        },
+        {
+          "role": "Project leader",
+          "member_id": 207261,
+          "orcid": "https://orcid.org/-",
+          "last_name": "Cramer",
+          "degree_pre_nominal": "dr.",
+          "initials": "A.O.J.",
+          "first_name": "Angélique",
+          "organisation": "Universiteit van Amsterdam||Faculteit der Maatschappij- en Gedragswetenschappen||Psychologie",
+          "organisation_id": 75962,
+          "active": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+# Example configuration for NWO JSON data conversion to Crossref Grant XML
+
+# Static values for the XML header section
+header_static_values:
+  doi_batch_id: "nwo_batch_20250815"
+  depositor_name: "Depositor"
+  depositor_email: "depositor@depositoremail.com"
+  registrant: "Depositor Organization"
+
+# XML namespace declarations
+namespace_values:
+  xmlns: "http://www.crossref.org/grant_id/0.2.0"
+  "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+  "xmlns:rel": "http://www.crossref.org/relations.xsd"
+  "xsi:schemaLocation": "http://www.crossref.org/grant_id/0.2.0 http://www.crossref.org/schemas/grant_id0.2.0.xsd"
+
+field_mappings:
+  # DOI construction
+  doi:
+    transform: construct_doi
+    prefix: "10.12345/grant-"
+    source_field: "project_id"
+  
+  # Resource URL construction
+  resource:
+    transform: construct_url
+    prefix: "https://www.nwo.nl/en/projects/"
+    source_field: "project_id"
+  
+  # Project title using direct mapping
+  project-title:
+    source_field: "title"
+  
+  # Project description
+  description:
+    source_field: "summary_en"
+    default: "No summary available"
+  
+  # Investigator information where we do complex extraction from the project_members array
+  investigators:
+    source_field: "_complex:lead_investigator"
+  
+  
+  # Identify the funder using the ROR ID
+  funder_ror:
+    static_value: "https://ror.org/04jsz6e67"
+  
+  # Funding scheme
+  funding_scheme:
+    source_field: "funding_scheme"
+  
+  # Funding type
+  funding_type:
+    static_value: "grant"
+  
+  # Award number
+  award-number:
+    source_field: "project_id"
+  
+  # Award start date with formatting
+  award-start-date:
+    transform: format_date
+    source_field: "start_date"
+    input_format: "%Y-%m-%dT%H:%M:%S"
+    output_format: "%Y-%m-%d"
+
+# Complex field extraction
+complex_fields:
+  lead_investigator:
+    # Extract lead investigator from project_members array
+    # Priority: Project leader > Main Applicant > Co-applicant
+    source: "project_members"
+    priority_roles:
+      - "Project leader"
+      - "Main Applicant"
+      - "Co-applicant"
+    fields:
+      first_name: "first_name"
+      last_name: "last_name"
+      orcid: "orcid"
+      organisation: "organisation"
+      country: "_literal:NL"
+
+# Related works configuration extract from products array in the JSON
+related_works_config:
+  embedded_field: "products"
+  relationship_type: "finances"
+  doi_field: "url_open_access"
+  filter_pattern: "doi\\.org"  # Only include products with DOIs
+
+# Processing options
+options:
+  skip_empty_fields: true
+  validate_dois: true
+  json_root_path: "projects"  # Root path to the array of funded projects in the JSON
