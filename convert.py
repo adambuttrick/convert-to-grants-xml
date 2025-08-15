@@ -19,6 +19,7 @@ class EnhancedGrantConverter:
         self.records_processed = 0
         self.records_failed = 0
         self.related_works = defaultdict(list)
+        self.coapplicants = defaultdict(list)
         
     def _load_config(self, config_path):
         try:
@@ -112,7 +113,24 @@ class EnhancedGrantConverter:
             except Exception as e:
                 logging.warning(f"Failed to load related works from {file_path}: {e}")
     
-    def convert(self, input_path, output_path, related_works_files=None):
+    def load_coapplicants(self, coapplicant_files):
+        for file_path in coapplicant_files:
+            try:
+                records = self.read_input_data(file_path)
+                
+                join_key = self.config.get('coapplicants_config', {}).get('join_key', 'ApplicationID')
+                
+                for record in records:
+                    app_id = record.get(join_key)
+                    if app_id:
+                        self.coapplicants[app_id].append(record)
+                
+                logging.info(f"Loaded co-applicants from {file_path}")
+                
+            except Exception as e:
+                logging.warning(f"Failed to load co-applicants from {file_path}: {e}")
+    
+    def convert(self, input_path, output_path, related_works_files=None, coapplicant_files=None):
         logging.info(f"Starting conversion process")
         logging.info(f"Input: {input_path}")
         logging.info(f"Output: {output_path}")
@@ -120,6 +138,10 @@ class EnhancedGrantConverter:
         if related_works_files:
             self.load_related_works(related_works_files)
             logging.info(f"Loaded related works for {len(self.related_works)} grants")
+        
+        if coapplicant_files:
+            self.load_coapplicants(coapplicant_files)
+            logging.info(f"Loaded co-applicants for {len(self.coapplicants)} grants")
         
         records = self.read_input_data(input_path)
         
@@ -348,6 +370,10 @@ class EnhancedGrantConverter:
         if 'source_field' in inv_config and isinstance(inv_config['source_field'], str) and inv_config['source_field'].startswith('_complex:'):
             complex_key = inv_config['source_field'].replace('_complex:', '')
             self._process_complex_investigators(record, investigators, complex_key)
+            
+            award_id = self._get_award_id(record)
+            if award_id and award_id in self.coapplicants:
+                self._add_coapplicants(investigators, self.coapplicants[award_id])
             return
         
         if 'person_name' in inv_config:
@@ -388,6 +414,56 @@ class EnhancedGrantConverter:
                         country_code = self._get_country_code(country)
                         if country_code:
                             institution.set('country', country_code)
+        
+        award_id = self._get_award_id(record)
+        if award_id and award_id in self.coapplicants:
+            self._add_coapplicants(investigators, self.coapplicants[award_id])
+    
+    def _add_coapplicants(self, investigators, coapplicants):
+        coapp_config = self.config.get('coapplicants_config', {})
+        
+        for coapp in coapplicants:
+            try:
+                person = ET.SubElement(investigators, 'person')
+                person.set('role', 'investigator')
+                
+                name_field = coapp_config.get('name_field', 'CoApplicantName-NomCoApplicant')
+                full_name = coapp.get(name_field, '')
+                
+                if coapp_config.get('name_transform') == 'split_name':
+                    separator = coapp_config.get('name_separator', ',')
+                    if full_name and separator in full_name:
+                        parts = full_name.split(separator, 1)
+                        if len(parts) == 2:
+                            given_name = ET.SubElement(person, 'givenName')
+                            given_name.text = parts[1].strip()
+                            family_name = ET.SubElement(person, 'familyName')
+                            family_name.text = parts[0].strip()
+                        else:
+                            family_name = ET.SubElement(person, 'familyName')
+                            family_name.text = full_name.strip()
+                    else:
+                        family_name = ET.SubElement(person, 'familyName')
+                        family_name.text = full_name.strip() if full_name else 'Unknown'
+                else:
+                    family_name = ET.SubElement(person, 'familyName')
+                    family_name.text = full_name.strip() if full_name else 'Unknown'
+                
+                inst_field = coapp_config.get('institution_field', 'CoAppInstitution-Établissement')
+                if inst_field and coapp.get(inst_field):
+                    affiliation = ET.SubElement(person, 'affiliation')
+                    institution = ET.SubElement(affiliation, 'institution')
+                    institution.text = coapp.get(inst_field)
+                    
+                    country_field = coapp_config.get('country_field', 'CountryEN')
+                    if country_field and coapp.get(country_field):
+                        country_code = self._get_country_code(coapp.get(country_field))
+                        if country_code:
+                            institution.set('country', country_code)
+                
+            except Exception as e:
+                logging.debug(f"Failed to add co-applicant: {e}")
+                continue
     
     def _get_field_value(self, record, field_config):
         if 'static_value' in field_config:
@@ -607,6 +683,11 @@ def main():
         help='Path(s) to related works data files (CSV or JSON)'
     )
     parser.add_argument(
+        '--coapplicants',
+        nargs='+',
+        help='Path(s) to co-applicants data files (CSV or JSON)'
+    )
+    parser.add_argument(
         '--log',
         required=False,
         help='Path to a log file (optional)'
@@ -616,7 +697,7 @@ def main():
     
     try:
         converter = EnhancedGrantConverter(args.config, args.log)
-        converter.convert(args.input, args.output, args.related_works)
+        converter.convert(args.input, args.output, args.related_works, args.coapplicants)
         sys.exit(0)
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)

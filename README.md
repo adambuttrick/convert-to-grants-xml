@@ -1,6 +1,6 @@
 # Crossref Grant ID XML Converter
 
-Tool for converting funder grant data from CSV or JSON formats to Crossref Grant ID XML format, with support for combining multiple data sources, related works, and  validation.
+Tool for converting funder grant data from CSV or JSON formats to Crossref Grant ID XML format, with support for combining multiple data sources, related works, additional participants, and validation.
 
 
 ## Table of Contents
@@ -45,6 +45,13 @@ python convert.py --input grants.json --output grants.xml --config config.yaml
 ```bash
 python convert.py --input grants.csv --output grants.xml --config config.yaml \
     --related-works related_publications.csv
+```
+
+### With Co-Applicants
+
+```bash
+python convert.py --input grants.csv --output grants.xml --config config.yaml \
+    --coapplicants coapplicants.csv
 ```
 
 ## Configuration
@@ -136,7 +143,29 @@ python convert.py \
     --related-works publications.csv citations.json datasets.csv
 ```
 
-### Example 4: Validating Generated XML
+### Example 4: Including Co-Applicants
+
+```bash
+python convert.py \
+    --input grants.csv \
+    --output grants_with_participants.xml \
+    --config config.yaml \
+    --coapplicants coapplicants.csv
+```
+
+### Example 5: Complete Conversion with All Features
+
+```bash
+python convert.py \
+    --input grants.csv \
+    --output complete_grants.xml \
+    --config config.yaml \
+    --related-works publications.csv \
+    --coapplicants coapplicants.csv \
+    --log conversion.log
+```
+
+### Example 6: Validating Generated XML
 
 ```bash
 cd validation
@@ -287,6 +316,13 @@ The converter generates Crossref Grant ID XML format v0.2.0:
               <institution country="US">University Name</institution>
             </affiliation>
           </person>
+          <person role="investigator">
+            <givenName>Jane</givenName>
+            <familyName>Doe</familyName>
+            <affiliation>
+              <institution country="US">Another University</institution>
+            </affiliation>
+          </person>
         </investigators>
         <description>Project description...</description>
         <award_amount currency="USD">50000</award_amount>
@@ -328,6 +364,23 @@ related_works_config:
   doi_field: "url_open_access"
   filter_pattern: "doi\\.org"
 ```
+
+### Co-Applicants Integration
+
+The converter can load additional grant participants (co-applicants/co-investigators) from separate files:
+
+```yaml
+coapplicants_config:
+  join_key: "ApplicationID"              # Field in co-applicants file to match
+  grant_join_field: "ApplicationID"      # Corresponding field in grant file
+  name_field: "CoApplicantName"          # Field containing co-applicant name
+  name_transform: "split_name"           # Transform to apply (optional)
+  name_separator: ","                    # Separator for name splitting
+  institution_field: "CoAppInstitution"  # Field containing institution
+  country_field: "CountryEN"             # Field containing country
+```
+
+Co-applicants are added as additional `<person>` elements with `role="investigator"` in the XML output.
 
 ### Complex Field Extraction
 
@@ -395,6 +448,7 @@ python convert.py [options]
 
 **Optional Arguments:**
 - `--related-works PATH [PATH ...]` - Path(s) to related works files
+- `--coapplicants PATH [PATH ...]` - Path(s) to co-applicants data files
 - `--log PATH` - Path to log file (optional, defaults to console output)
 
 ### validate_xml.py

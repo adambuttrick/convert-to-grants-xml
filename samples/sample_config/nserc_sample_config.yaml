@@ -72,3 +72,20 @@ field_mappings:
   award-start-date:
     transform: format_date
     source_field: "FiscalYear-Exercice financier"
+
+# Co-applicants configuration for loading from separate file
+coapplicants_config:
+  # Field in co-applicants file to join with main grant data
+  join_key: "ApplicationID"
+  # Corresponding field in main grant data file
+  grant_join_field: "ApplicationID"
+  # Field containing co-applicant name
+  name_field: "CoApplicantName-NomCoApplicant"
+  # Transform to apply to name (split_name or leave blank)
+  name_transform: "split_name"
+  # Separator for name splitting
+  name_separator: ","
+  # Field containing institution
+  institution_field: "CoAppInstitution-Établissement"
+  # Field containing country
+  country_field: "CountryEN"
