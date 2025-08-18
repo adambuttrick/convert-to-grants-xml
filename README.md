@@ -112,66 +112,6 @@ investigators:
   source_field: "_complex:lead_investigator"
 ```
 
-## Usage Examples
-
-### Example 1: Converting NSERC CSV Data
-
-```bash
-python convert.py \
-    --input nserc_sample.csv \
-    --output nserc_grants.xml \
-    --config nserc_sample_config.yaml \
-    --log conversion.log
-```
-
-### Example 2: Converting NWO JSON Data
-
-```bash
-python convert.py \
-    --input nwo_sample.json \
-    --output nwo_grants.xml \
-    --config nwo_sample_config.yaml
-```
-
-### Example 3: Including Related Works from Multiple Files
-
-```bash
-python convert.py \
-    --input grants.csv \
-    --output grants_with_works.xml \
-    --config config.yaml \
-    --related-works publications.csv citations.json datasets.csv
-```
-
-### Example 4: Including Co-Applicants
-
-```bash
-python convert.py \
-    --input grants.csv \
-    --output grants_with_participants.xml \
-    --config config.yaml \
-    --coapplicants coapplicants.csv
-```
-
-### Example 5: Complete Conversion with All Features
-
-```bash
-python convert.py \
-    --input grants.csv \
-    --output complete_grants.xml \
-    --config config.yaml \
-    --related-works publications.csv \
-    --coapplicants coapplicants.csv \
-    --log conversion.log
-```
-
-### Example 6: Validating Generated XML
-
-```bash
-cd validation
-python validate_xml.py ../grants.xml grant_id0.2.0.xsd.xml
-```
-
 ## Data Transformations
 
 The converter supports several built-in transformations:
