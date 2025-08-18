@@ -1,6 +1,6 @@
 # Convert Grants Data to XML
 
-Tool for converting funder grant data from CSV or JSON formats to Crossref Grant ID XML format, with support for combining multiple data sources, related works, additional participants, and validation.
+Tool for converting funder grant data from CSV or JSON formats to Crossref Grant ID XML format, with support for combining multiple data sources, including of related works and additional investigators, as well as validation against the grants schema.
 
 
 ## Table of Contents
